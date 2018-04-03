@@ -63,8 +63,3 @@ for i = 1:nr_images
     i
     
 end
-
-
-
-
-

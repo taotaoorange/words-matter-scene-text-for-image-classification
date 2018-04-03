@@ -23,7 +23,7 @@ If you find our work useful, please consider citing:
 - - - -
 ### Usage
 
-**[Dataset]**: The Con-Text dataset used in this work can be found here https://staff.fnwi.uva.nl/s.karaoglu/datasetWeb/Dataset.html
+**[Dataset]**: The Con-Text dataset used in this work can be found here https://staff.fnwi.uva.nl/s.karaoglu/datasetWeb/Dataset.html 
 
 
 **[Text detection]**: The code in the folder 'text_detection/' is for generating word bounding box proposals. See 'text_detection/demo.m'. 
