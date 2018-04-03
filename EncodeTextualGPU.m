@@ -5,7 +5,6 @@ function textual_reprs = EncodeTextualGPU(imageNames, imageDIR, wordBoxDIR)
 % wordBoxDIR: folder of word proposals
 
 %% setup matconvnet
-% run ~/third/matconvnet-1.0-beta18/matlab/vl_setupnn.m
 
 % load model
 addpath NIPS2014DLW-Jaderberg/model_release/

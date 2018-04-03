@@ -4,7 +4,7 @@ This repository contains the code for the following paper:
 
 *  Sezer Karaoglu, Ran Tao, Theo Gevers, Arnold W. M. Smeulders, *Words Matter: Scene Text for Image Classification and Retrieval*, in IEEE Transactions on Multimedia, 2017 ([PDF](https://ivi.fnwi.uva.nl/isis/publications/2016/KaraogluTMM2016/KaraogluTMM2016.pdf))
 
-If you find our work useful, please consider citing:
+If you find our work useful in your research, please consider citing:
 ```
 @article{karaoglu2017words,
   title={Words matter: Scene text for image classification and retrieval},

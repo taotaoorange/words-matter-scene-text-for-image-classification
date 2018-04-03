@@ -1,9 +1,7 @@
-__author__ = 'rantao' # code not cleaned
-
 import numpy as np
 
 import sys
-sys.path.insert(0, '/home/rtao1/fast-rcnn/caffe-fast-rcnn/python/')
+sys.path.insert(0, '/home/rtao1/caffe/python/')
 
 import caffe
 import os
@@ -48,7 +46,7 @@ if __name__ == '__main__':
 	counter = 0
 	for f in os.listdir(args.image_dir):
 		if f.endswith(".jpg"):
-			# pdb.set_trace()
+			
 			image = caffe.io.load_image(args.image_dir + f)
 			transformed_image = transformer.preprocess('data', image)
 			net.blobs['data'].data[...] = transformed_image

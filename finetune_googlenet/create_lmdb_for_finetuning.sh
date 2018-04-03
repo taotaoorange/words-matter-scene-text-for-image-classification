@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 # Create lmdb inputs
 
-TOOLS=/home/rtao1/fast-rcnn/caffe-fast-rcnn/build/tools
+TOOLS=/home/rtao1/caffe/build/tools
 
 TRAIN_DATA_ROOT=../Con-Text/JPEGImages/
 VAL_DATA_ROOT=../Con-Text/JPEGImages/
