@@ -18,7 +18,7 @@ If you find our work useful, please consider citing:
 }
 ```
 
-contact: sezerkaraoglu@gmail.com, rantao.mail@gmail.com
+**Contact**: sezerkaraoglu@gmail.com, rantao.mail@gmail.com
 
 - - - -
 ### Usage
