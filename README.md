@@ -40,5 +40,7 @@ If you find our work useful in your research, please consider citing:
 **[Fine tune googlenet on the Con-Text dataset]**: See folder 'finetune_googlenet/'.
 
 
+**[Classification]**: See 'run_classification.m'. libsvm is required.
+
 
 
