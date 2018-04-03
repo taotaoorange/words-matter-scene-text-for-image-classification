@@ -10,8 +10,8 @@ K; % 24255 x 24255
 load('Finegrained_ImageNames.mat'); imageNames; 
 
 
-%%
-addpath('/datastore/rantao/workspace/libsvm-3.20/matlab/'); % libsvm
+%% setup libsvm
+
 
 APs = zeros(28,1);
 for clsid = 1:28 % 28 classes
