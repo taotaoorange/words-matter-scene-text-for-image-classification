@@ -1,0 +1,22 @@
+net: "finetune_googlenet_ConText_split0.prototxt"
+
+test_iter: 21 # 21*77
+test_interval: 455
+
+display: 455
+average_loss: 40
+
+base_lr: 0.001
+lr_policy: "step"
+stepsize: 2275 # 455: 1 epoch
+gamma: 0.1
+max_iter: 9100 # 20 epochs
+
+momentum: 0.9
+weight_decay: 0.0005
+
+snapshot: 2275
+snapshot_prefix: "bvlc_googlenet_finetunue_ConText_split0"
+
+solver_mode: GPU
+
