@@ -16,7 +16,7 @@ This repository contains the code for the following two papers:
 - - - -
 ### Usage
 
-**[Dataset]**: The Con-Text dataset used in this work can be found here https://staff.fnwi.uva.nl/s.karaoglu/datasetWeb/Dataset.html 
+**[Dataset]**: The Con-Text dataset can be found here https://staff.fnwi.uva.nl/s.karaoglu/datasetWeb/Dataset.html 
 
 'Finegrained_ImageNames.mat' is the list of images in the Con-Text dataset.
 
@@ -26,7 +26,7 @@ This repository contains the code for the following two papers:
 
 
 
-**[Generate textual representation]**: Refer to 'EncodeTextualConTextScript.m' for how to generate representations of the textual contents in images. Both the CPU version ('EncodeTextual.m') and the GPU version ('EncodeTextualGPU.m') are provided. To generate the representations of the textual contents, the word recognition model provided by Jaderberg et al (http://www.robots.ox.ac.uk/~vgg/research/text/) is required. Go to folder 'NIPS2014DLW-Jaderberg/' and run 'download.sh' to download the word recognition model. 
+**[Generate textual representation]**: Refer to 'EncodeTextualConTextScript.m' for how to generate representations of the word-level textual contents in images. Both the CPU version ('EncodeTextual.m') and the GPU version ('EncodeTextualGPU.m') are provided. To generate the representations of the word-level textual contents, the word recognition model provided by Jaderberg et al (http://www.robots.ox.ac.uk/~vgg/research/text/) is required. Go to folder 'NIPS2014DLW-Jaderberg/' and run 'download.sh' to download the word recognition model. 
 
 
 
